@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Cric Everest</title>
+</head>
+
+<body>
+  <h1>Cric Everest</h1>
+  <div class="btns">
+    
+ 
+<button class="btn" onclick="play(0)">0</button>
+<button class="btn" onclick="play(1)">1</button>
+<button class="btn" onclick="play(2)">2</button>
+<button class="btn" onclick="play(3)">3</button>
+<button class="btn" onclick="play(4)">4</button>
+<button class="btn" onclick="play(5)">5</button>
+<button class="btn" onclick="play(6)">6</button>
+ </div>
+ <div class="img">
+   <img src="ball.png" alt="ball">
+ </div>
+ <div id="sc1" class="scores">
+   <h2>Your Stats</h2>
+   <p>Your Choice: <span id="user">0</span></p><p>
+   <p>Computer Choice: <span id="computer">0</span></p>
+ <p>Total Runs: <span id="runs">0</span></p>
+    <p>Balls Played: <span id="balls">0</span></p>
+    <p>Target: <span id="target">0</span></p>
+      
+ </div>
+ <div id="sc2" class="scores">
+   <h2>Bot Stats</h2>
+
+ <p>Your Choice: <span id="user1">0</span></p>
+ <p>Computer Choice: <span id="computer1">0</span></p>
+ <p>Total Runs: <span id="runs1">0</span></p>
+ <p>Balls Played: <span id="balls1">0</span</p>
+  </div>
+  <br>
+  <div >
+    <h4>Status: <span id="st">You are Batting</span></h4> 
+    <div id="highScore">Highest Runs: <span id="Score">0</span></div>
+
+  </div>
+<br>
+
+<footer>
+  
+
+  <button  class="reset" onclick="reset()" type="reset">Reset</button>
+</footer>
+
+<script src="script.js">script.js</script>
+</body>
+
+</html>
